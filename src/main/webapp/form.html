@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h2 {
+            margin: 3px;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+
+
+<form action="./form_ok.jsp" method="post">
+
+    <h2>Info</h2>
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"></input><br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="age">age: </label>
+    <input type="text" id="age" name="age"><br>
+    <label type="text">Grade: </label>
+    <select name="grade" id="grade">
+        <option value="freshman">freshman</option>
+        <option value="sophomore">sophomore</option>
+        <option value="junior">junior</option>
+        <option value="senior">senior</option>
+    </select>
+
+    <h2>Using language</h2>
+    <input type="radio" id="c" name="language" value="c">
+    <label for="c">C</label><br>
+    <input type="radio" id="java" name="language" value="java">
+    <label for="java">Java</label><br>
+    <input type="radio" id="python" name="language" value="python">
+    <label for="python">Python</label>
+
+    <h2>Meal</h2>
+    <input type="checkbox" id="breakfast" name="meal" value="breakfast">
+    <label for="breakfast">I usually eat breakfast</label><br>
+    <input  type="checkbox" id="lunch" name="meal" value="lunch">
+    <label for="lunch">I usually eat lunch</label><br>
+    <input type="checkbox" id="dinner" name="meal" value="dinner">
+    <labe for="dinner">I usually eat dinner</labe><br>
+
+    <h2>BirthDay</h2>
+    <input type="date" id="birthday" name="birthday" value="birthday"><br>
+
+    <h2>Drink</h2>
+    <select name="drink" id="drink">
+        <option value="water">water</option>
+        <option value="energy_drink">energy drink</option>
+        <option value="orange_juice">orange juice</option>
+    </select><br>
+
+    <h2>Write something</h2>
+    <textarea name="opinion" cols="30" rows="5"></textarea><br>
+
+    <h2>Favorite</h2>
+    <select name="favorite">
+        <optgroup label="season">
+            <option value="spring">spring</option>
+            <option value="summer">summer</option>
+            <option value="autumn">autumn</option>
+            <option value="winter">winter</option>
+        </optgroup>
+        <optgroup label="habit">
+            <option value="reading">reading</option>
+            <option value="exercise">exercise</option>
+            <option value="ott">ott service</option>
+            <option value="sleeping">sleeping</option>
+        </optgroup>
+    </select>
+
+
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+
+
+
+</body>
+</html>
